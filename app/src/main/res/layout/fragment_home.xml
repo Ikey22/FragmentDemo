@@ -25,7 +25,7 @@
         ans:layout_constraintTop_toBottomOf="@id/logo"
         ans:layout_constraintStart_toStartOf="parent"
         ans:layout_constraintEnd_toEndOf="parent"
-        android:hint="Full Name"
+        android:hint="@string/full_name"
         android:layout_marginTop="10dp">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -42,7 +42,7 @@
         ans:layout_constraintTop_toBottomOf="@id/input_layout_one"
         ans:layout_constraintStart_toStartOf="parent"
         ans:layout_constraintEnd_toEndOf="parent"
-        android:hint="Track"
+        android:hint="@string/track"
         android:layout_marginTop="10dp">
 
         <com.google.android.material.textfield.TextInputEditText
